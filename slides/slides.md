@@ -122,14 +122,14 @@ table inet filter {
 * kernel params tuning (sysctl)  <!-- .element: class="fragment" -->
 * locale (UTC) et timezone (UTC)  <!-- .element: class="fragment" -->
 * VPN  <!-- .element: class="fragment" -->
-* ...
+* ...  <!-- .element: class="fragment" -->
 
 ---
 
 # Jour 3 : début du déploiement de l'appli
 
 * création d'un nouvel utilisateur (no shell) pour exécuter les applicatifs  <!-- .element: class="fragment" -->
-* les repos ne sont pas packagés, donc déploiement via `git clone` + `scp`  <!-- .element: class="fragment" -->
+* les repos ne sont pas packagés, donc déploiement via git-clone + scp  <!-- .element: class="fragment" -->
 
 🤦  <!-- .element: class="fragment" -->
 
@@ -138,7 +138,7 @@ table inet filter {
 
 -v-
 
-* l'un des repos a des dépendances complexes, il est packagé en conteneur  <!-- .element: class="fragment" -->
+* l'un des repos a des dépendances complexes, il est packagé en conteneur
 
 🤦  <!-- .element: class="fragment" -->
 
@@ -202,7 +202,9 @@ WantedBy=flup.target
 
 # Jour 5 : le reverse-proxy (Nginx)
 
-laisser le fichier `/etc/nginx/nginx.conf` par défaut charger `/etc/nginx/conf.d/*.conf`  <!-- .element: class="fragment" -->
+`/etc/nginx/nginx.conf`  <!-- .element: class="fragment" -->
+
+`/etc/nginx/conf.d/*.conf`  <!-- .element: class="fragment" -->
 
 ```nginx
 log_format without_referrer_with_correlation_id
