@@ -2,4 +2,4 @@
 
 Slides hébergées sur GitHub :
 
-* [main](https://lenormju.github.io/talk-devops-dev/index.html)
+* [main](https://lenormju.github.io/talk-devops-ops/index.html)
