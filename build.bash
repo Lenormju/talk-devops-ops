@@ -2,7 +2,7 @@
 set -euo pipefail
 
 mkdir -p public
-uv tool run --offline 'mkslides' \
+uv tool run 'mkslides' \
     build \
     --config-file 'mkslides_config.yml' \
     --site-dir 'public' \
