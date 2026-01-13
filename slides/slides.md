@@ -268,15 +268,28 @@ server {  # Flup served to Cloudflare
 
 ---
 
-# Monitoring
+# Cloudflare
 
-CheckMk : basique
+* tout un monde !  <!-- .element: class="fragment" -->
+* features de sécurité :  <!-- .element: class="fragment" -->
+  * reverse proxy  <!-- .element: class="fragment" -->
+  * filtrage IP  <!-- .element: class="fragment" -->
+  * Mirage  <!-- .element: class="fragment" -->
+  * WAF  <!-- .element: class="fragment" -->
+  * pages d'erreur custom  <!-- .element: class="fragment" -->
+  * migration du nom de domaine  <!-- .element: class="fragment" -->
+  * captcha Turnstile  <!-- .element: class="fragment" -->
+  * Rocket Loader  <!-- .element: class="fragment" -->
+  * ...  <!-- .element: class="fragment" -->
 
-ajout des units systemd
+---
 
-logging + sentry TODO
+# Monitoring : CheckMk
 
-TODO
+![](./checkmk_example.png)
+
+* systemd  <!-- .element: class="fragment" -->
+* OTel  <!-- .element: class="fragment" -->
 
 ---
 
@@ -286,7 +299,7 @@ TODO
   * (et StackOverflow parfois aussi)  <!-- .element: class="fragment" -->
 * je comprends pourquoi les gens aiment le Cloud et k8s  <!-- .element: class="fragment" -->
 * je comprends pourquoi les gens détestent le Cloud et k8s  <!-- .element: class="fragment" -->
-* TODO
+* la partie immergée de l'iceberg est quand même cachement grande !!  <!-- .element: class="fragment" -->
 
 ---
 
